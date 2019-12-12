@@ -1,2 +1,0 @@
-# clb
-giới thiệu
