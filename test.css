@@ -9,11 +9,11 @@
     opacity: 0.5;
     z-index: 1000000;
 } */
-.img-slider{
-    height: 650px;
+.img-slider {
+    height: 540px;
     width: 500px;
     background-size: cover;
-    padding-top: 50px;
+
 }
 .bodercovers{
     box-sizing: border-box;
@@ -30,17 +30,22 @@
     right: 270px;
     background-color: teal;
 }
+
+.slider {
+  background: url(../../fake/tec-bg.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 580px;
+  display: block;
+
+}
+
 .backgroundin img{
-    height: 580px;
-    width: 1471px;
+    min-height: 580px;
+    width: 100%;
     background-size: cover;
 }
-.body{
-    position: absolute;
-    z-index: 1000000000;
-    bottom: 33px;
-    right: 100px;
-}
+
 
 
 
@@ -48,8 +53,9 @@
 
 .timeline {
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 0 200px;
     position: relative;
+    margin: 50px 0 100px;
   }
   
   .timeline:before {
@@ -193,21 +199,13 @@
   .timeline-body > p + p {
     margin-top: 5px;
   }
-/*TIMELINE */
 
+/* TIMELINE */
 
-.card-between{
-  height: 257.52px;
-  width: 257.52px;
-  background-size: cover;
+.commenttomember {
+  margin: 0 0 50px;
 }
-.card-between1{
-  height: 257.52px;
-  width: 257.52px;
+
+.tag{
+  margin: 0 0 50px;
 }
-.timelineweb{
-  padding: 0 300px;
-}
-/* .teamrow{
-  padding: 0 50px;
-} */
